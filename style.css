@@ -6,6 +6,7 @@ body {
     border-color: #eee;
     box-shadow: #ddd;
     text-align: center;
+    margin: auto;
 }
 
 header {
@@ -15,11 +16,41 @@ header {
 
 nav {
     color: #777;
+    
+}
+
+h1 {
+    margin: auto;
+    padding: 0rem 1rem 1rem 1rem;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: left;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 900
+}
+
+h5 {
+    color: #dd3232;
+    text-align: left;
+}
+
+.date {
+    text-align: left;
 }
 
 main {
-    color: #dd3232;
     font-family: Roboto Slab;
+    text-align: justify;
+    border-bottom: 1px solid gray;
+}
+
+img {
+    width: 100%
 }
 
 .newspaper-container {
@@ -36,19 +67,27 @@ ul, li {
     margin: auto;
     display: inline-block;
     padding: 0.4rem;
+    color: 
 }
 
 ul {
-    border-top: 2px groove darkblue;
-    border-bottom: 2px groove darkblue;
+    border-top: 1px groove lightgray;
+    border-bottom: 1px groove lightgray;
     border-radius: 0px;
     margin: auto;
 }
 
 #short-articles {
-    width:250px;
+    width:310px;
     display: inline-block;
-    padding: 3rem;
+    padding: 0rem 1rem 1rem 1rem;
     margin: auto;
     text-align: justify;
+}
+ a:hover {
+    color: white;
+}
+
+a {
+    color: gray;
 }
