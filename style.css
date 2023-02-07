@@ -67,7 +67,6 @@ ul, li {
     margin: auto;
     display: inline-block;
     padding: 0.4rem;
-    color: 
 }
 
 ul {
@@ -77,8 +76,8 @@ ul {
     margin: auto;
 }
 
-#short-articles {
-    width:310px;
+.short-articles {
+    width: 310px;
     display: inline-block;
     padding: 0rem 1rem 1rem 1rem;
     margin: auto;
@@ -90,4 +89,13 @@ ul {
 
 a {
     color: gray;
+}
+
+
+.even-more-articles {
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+    text-align: justify;
+    padding: 0.5em;
 }
